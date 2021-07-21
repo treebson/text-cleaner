@@ -42,7 +42,7 @@ A simple module for parsing, cleaning and validating:
 - Validates using the `validators` library
 - Validation runs a bunch of regex checks based based on [Django's email validator](https://github.com/django/django/blob/main/django/core/validators.py)
 
-## URLs
+### URLs
 
 - URLs are cleaned using the `url_normalize` library
 - Standardises casing, adds in the host, and encodes paths where appropriate
